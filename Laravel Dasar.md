@@ -189,7 +189,9 @@ Folder storage adalah tempat dimana cache, logs, dan file sistem yang ter-compil
 
 Folder tests adalah tempat dimana unit dan integration tests tinggal.
 
-### Vendor/, Folder "vendor" berisi dependensi pihak ketiga yang diinstal melalui komposer (Composer).
+### Vendor/
+
+Folder "vendor" berisi dependensi pihak ketiga yang diinstal melalui komposer (Composer).
 
 ### .editorconfig
 
