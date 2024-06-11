@@ -142,6 +142,91 @@ Jika kita buka folder laravel tersebut maka kita akan menemukan folder-folder da
 
 berikut adalah penjelasan struktur-struktur projek laravel diatas .
 
+### App/
+
+Folder app berisi kode-kode inti dari aplikasi seperti Model, Controller, Commands,
+Listener, Events, dll. Poinnya, hampir semua class dari aplikasi berada di folder ini.
+
+### Bootstrap/
+
+Folder ini berisi berbagai file yang bertanggung jawab untuk menginisialisasi lingkungan
+aplikasi dan mengatur konfigurasi awal sebelum aplikasi Laravel benar-benar dijalankan.
+yang digunakan untuk meningkatkan kinerja aplikasi.
+
+### Config/
+
+Folder config seperti namanya, berisi semua file konfigurasi aplikasi Anda.
+
+### Database/
+
+Folder database berisi database migrations, model factories, dan seeds. Folder ini akan
+bertanggung jawab dengan pembuatan dan pengisian tabel-tabel database.
+
+### Public/
+
+Folder public memiliki file index.php yaitu entry point dari semua requests yang
+masuk/diterima ke aplikasi. Folder ini juga tempat menampung gambar, Javascript, dan
+CSS.
+
+### Resources/
+
+Folder resources berisi semua route yang disediakan aplikasi. Sebagai default, beberapa file
+routing akan tersedia seperti: web.php, api.php, console.php, dan channels.php. Folder ini
+adalah tempat dimana kita memberikan koleksi definisi route aplikasi.
+
+### Routes/
+
+folder "routes" berfungsi sebagai tempat untuk mendefinisikan berbagai rute (routes) atau
+aturan yang menentukan bagaimana aplikasi akan merespons permintaan HTTP yang
+masuk. Rute menentukan tindakan apa yang harus diambil oleh aplikasi ketika permintaan
+diterima dari URL tertentu.
+
+### Storage/
+
+Folder storage adalah tempat dimana cache, logs, dan file sistem yang ter-compile hidup.
+
+### Test/
+
+Folder tests adalah tempat dimana unit dan integration tests tinggal.
+
+### Vendor/, Folder "vendor" berisi dependensi pihak ketiga yang diinstal melalui komposer (Composer).
+
+### .editorconfig
+
+Berguna untuk memberi IDE/text editor instruksi tentang standar coding Laravel seperti
+whitespace, besar identasi, dll.
+
+### .env & .env.example
+
+Tempat dimana variable environment aplikasi ditempatkan (variabel yang diekspektasikan
+akan berbeda di setiap sistem) seperti nama database, username database, password
+database.
+
+### .gitattributes & .gitignore
+
+File konfigurasi git.
+
+### Artisan
+
+Memungkinkan anda untuk menjalankan perintah artisan dari command line.
+
+### Composer.json & Composer.lock
+
+File konfigurasi untuk composer. File ini adalah informasi dasar tentang projek dan juga
+mendefinisikan dependencies yang digunakan.
+
+### Package.json
+
+Mirip-mirip dengan composer.json tapi untuk aset-aset dan dependencies front-end.
+
+### Phpunit.xml
+
+Sebuah file konfigurasi untuk PHPUnit, tools yang digunakan Laravel untuk testing.
+
+### README.md
+
+Sebuah markdown file yang memberikan pengenalan dasar tentang Laravel.
+
 # Mengenal Dasar Routing
 
 ## Routing Dasar
