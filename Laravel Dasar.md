@@ -1,7 +1,3 @@
----
-banner: Random/assets/Pasted%20image%2020240306194801.png
----
-
 # Apa itu Laravel
 
 Laravel adalah sebuah framework aplikasi web berbasis PHP yang dirancang untuk memudahkan proses pengembangan aplikasi web dengan cara yang lebih elegan dan ekspresif. Framework ini diciptakan oleh Taylor Otwell dan pertama kali dirilis pada tahun 2011.Laravel hadir sebagai platform web development yang bersifat _open source_. Yang menarik dari Laravel adalah sintaksnya yang ekspresif dan elegan yang dirancang khusus untuk memudahkan dan mempercepat proses web development.
