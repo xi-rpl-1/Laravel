@@ -29,19 +29,19 @@ Pilih text editor yang sesuai dengan kebutuhan atau selera Anda. Disini saya men
 - Buka folder VSCode yang sudah di download
 - Klik dua kali folder tersebut, Setelah itu akan ada noted Setup - Microsoft Visual Studio Code (User) License Agreement atau perjanjian lisensi yang bahwasanya setuju menginstall VSCode dengan persyaratan yang telah ditentukan
 - l Klik “I accept the agreement” lalu klik next
-- ![](../../assets/Laravel/laravel-1.png)
+- ![](assets/laravel-1.png)
 - Selanjutnya akan ada Select Destination Location atau memilih lokasi tujuan. Jadi folder tersebut akan diletakkan di mana
 - ![100%](laravel-2.png)
 - Klik 'Next' pada tahap ini
-- ![](../../assets/Laravel/laravel-3.png)
+- ![](assets/laravel-3.png)
 - Pilih optional secara default, kemudian klik 'Next'
-- ![](../../assets/Laravel/laravel-4.png)
+- ![](assets/laravel-4.png)
 - Klik '_Install_'
-- ![](../../assets/Laravel/laravel-5.png)
+- ![](assets/laravel-5.png)
 - Tunggu proses instalasi hingga selesai.
-- ![](../../assets/Laravel/laravel-6.png)
+- ![](assets/laravel-6.png)
 - Centang 'Launch Visual Studio Code' jika anda ingin langsung membuka aplikasinya, kemudian klik 'Finish'.
-- ![](../../assets/Laravel/laravel-7.png)
+- ![](assets/laravel-7.png)
 
 ### Webserver dan Database
 
@@ -54,50 +54,50 @@ Berikut Langkah-langkah Instalasi XAMPP :
 1. Buka situs resmi dari _software_ XAMPP : [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
 2. Pilih sesuai dengan sistem operasi yang anda gunakan. Di situs tersebut tersedia 3 sistem operasi yang mendukung XAMPP diantaranya windows, linux dan OS X
 3. Dalam hal ini karena komputer saya menggunakan sistem operasi Windows, maka saya akan pilih versi XAMPP for windows
-4. ![](../../assets/Laravel/laravel-8.png)
+4. ![](assets/laravel-8.png)
 5. Tekan tombol download pada salah satu versi yang dapat kalian pilih. disini saya memilih versi 8.1.17. Karena komputer saya menggunakan sistem operasi 64 bit maka muncul tombol download (64-bit) sementara jika sistem operasi windows kalian versi 32 bit silahkan disesuaikan.
 6. Buka folder Xampp yang sudah di download, Kemudian klik kanan dan run as administrator
 7. Selanjutnya klik ‘Next’
-8. ![](../../assets/Laravel/laravel-9.png)
+8. ![](assets/laravel-9.png)
 9. Pada tahapan ini, Anda akan diminta untuk memilih aplikasi yang mau diinstal. Centang saja semua pilihan dan klik tombol Next.
-10. ![](../../assets/Laravel/laravel-10.png)
+10. ![](assets/laravel-10.png)
 11. Pilih folder instalasi XAMPP. Saya sarankan pilih default saja yaitu di C:/xampp, namun jika ingin menyimpannya di partisi lain juga tidak masalah. Lalu Klik Next
-12. ![](../../assets/Laravel/laravel-11.png)
+12. ![](assets/laravel-11.png)
 13. Pilih bahasa English saja, lalu Klik Next
-14. ![](../../assets/Laravel/laravel-12.png)
+14. ![](assets/laravel-12.png)
 15. Tunggu hingga proses install XAMPP selesai
-16. ![](../../assets/Laravel/laravel-13.png)
+16. ![](assets/laravel-13.png)
 17. Jika sudah muncul jendela seperti di bawah ini, klik tombol Finish untuk menyelesaikannya.Selain itu, akan muncul opsi apakah Anda mau langsung menjalankan aplikasi XAMPP atau tidak. Jika ya, maka centang opsi tersebut.
-18. ![](../../assets/Laravel/laravel-14.png)
+18. ![](assets/laravel-14.png)
 19. Bukalah aplikasi XAMPP, bisa melalui Start Menu atau Desktop, dan klik icon XAMPP.
-20. ![](../../assets/Laravel/laravel-15.png)
+20. ![](assets/laravel-15.png)
 21. Setelah terbuka, silahkan klik tombol Start pada kolom Action sehingga tombol tersebut berubah menjadi Stop. Dengan mengklik tombol tersebut, artinya itulah aplikasi yang dijalankan. Biasanya jika saya menggunakan XAMPP, yang saya start hanyalah aplikasi Apache dan MySQL, karena saya tidak memerlukan aplikasi seperti Filezilla, dan lain-lain.
-22. ![](../../assets/Laravel/laravel-16.png)
+22. ![](assets/laravel-16.png)
 23. Sekarang bukalah browser kesukaan Anda, dan coba ketikkan "**localhost**" di address bar. Jika muncul tampilan seperti gambar di bawah ini, instalasi telah berhasil.
-24. ![](../../assets/Laravel/laravel-17.png)
+24. ![](assets/laravel-17.png)
 
 ### Composer
 
 Untuk dapat menginstal laravel kita akan menggunakan composer. Composer adalah package manager untuk PHP yang mengelola dependensi dalam proyek secara efisien, termasuk dalam proyek Laravel.. Adapun proses instalasi composer adalah sebagai berikut :
 
 1. Unduh composer di : [https://getcomposer.org/Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
-2. ![](../../assets/Laravel/laravel-18.png)
+2. ![](assets/laravel-18.png)
 3. Setelah file installer berhasil didownload, lakukan penginstallan dengan cara double klik file installer composer.
-4. ![](../../assets/Laravel/laravel-19.png)
+4. ![](assets/laravel-19.png)
 5. Tentukan folder installer untuk composer di komputer, biasanya di C:\Composer.
-6. ![](../../assets/Laravel/laravel-23.png)
+6. ![](assets/laravel-23.png)
 7. Kemudian pilih lokasi PHP yang sudah terinstall. Jika Anda menggunakan XAMPP, lokasi file ini akan berada di  C:\xampp\php\php.exe. Klik Next.
-8. ![](../../assets/Laravel/laravel-24.png)
+8. ![](assets/laravel-24.png)
 9. Kemudian Anda akan diminta untuk memilih, apakah Anda akan menggunakan proxy atau tidak. Jika Anda ingin menggunakan proxy, klik centang dan masukkan URL proxy Anda. Apabila Anda tidak ingin menggunakan proxy, langsung klik Next untuk melanjutkan instalasi.
-10. ![](../../assets/Laravel/laravel-26.png)
+10. ![](assets/laravel-26.png)
 11. Selanjutnya pastikan kalau proses instalasi berjalan di lokasi file yang seharusnya, yaitu C:\xampp\php\php.exe. Jika sudah benar, klik Install.
-12. ![](../../assets/Laravel/laravel-27.png)
+12. ![](assets/laravel-27.png)
 13. Berikutnya adalah tampilan pemberitahuan bahwa telah terjadi perubahan pada Windows environment. Perubahan ini dimaksudkan agar Composer dapat dijalankan pada Command Prompt. Klik Next.
-14. ![](../../assets/Laravel/laravel-28.png)
+14. ![](assets/laravel-28.png)
 15. Proses instalasi selesai, klik Finish untuk menutup jendela instalasi Composer.
-16. ![](../../assets/Laravel/laravel-29.png)
+16. ![](assets/laravel-29.png)
 17. Untuk mengecek apakah composer berhasil di install, lakukan langkah-langkah berikut. Silahkan masuk ke terminal atau klik windows+R,kemudian ketikkan cmd kemudian Enter. Kemudian masukkan perintah composer. Jika composer berhasil diinstall akan muncul tampilan seperti gambar berikut.
-18. ![](../../assets/Laravel/laravel-30.png)
+18. ![](assets/laravel-30.png)
 
 ## Install Package Laravel
 
@@ -109,13 +109,13 @@ composer create-project laravel/laravel coba-laravel
 ```
 
 3. Tunggu sampai proses unduh berhasil.
-4. ![](../../assets/Laravel/laravel-34.png)
+4. ![](assets/laravel-34.png)
 5. Jika proses unduh telah selesai, kemudian buka folder yang tadi sudah di download dengan mengetikkan cd {nama folder} contoh yang sudah dibuat “cd coba-laravel”
-6. ![](../../assets/Laravel/laravel-33.png)
+6. ![](assets/laravel-33.png)
 7. Untuk mengecek apakah laravel sudah terinstal yaitu dengan cara jalankan perintah php artisan serve untuk menjalankan sebagai server. Secara default url nya adalah http://localhost:8000. Untuk mengubah port tinggal menjalankan perintah php artisan serve --port={port}. Kalian bisa ubah {port} sesuai keinginan kalian.
-8. ![](../../assets/Laravel/laravel-32.png)
+8. ![](assets/laravel-32.png)
 9. Buka browser kemudian ketik localhost:8000. Jika tampilan sebagai berikut, berarti laravel yang diinstal sudah berjalan.
-10. ![](../../assets/Laravel/laravel-31.png)
+10. ![](assets/laravel-31.png)
 
 ## Struktur Projek Laravel
 
@@ -179,7 +179,7 @@ Route::get('/', function(){
 ```
 
 Kemudian buka web browser dan ketikan alamat localhost:8000, kemudian hasilnya seperti gambar dibawah ini.
-![](../../assets/Laravel/laravel-35.png)
+![](assets/laravel-35.png)
 Gambar diatas adalah hasil (response) dari route yang telah kita manipulasi tadi. Kemudian kita akan coba membuat route baru dengan mengetikan sintak sebagai berikut.
 
 **`routes/web.php`**
@@ -191,7 +191,7 @@ Route::get('/book', function(){
 ```
 
 Route diatas akan menghasilkan hasil sebagai berikut :
-![](../../assets/Laravel/laravel-36.png)
+![](assets/laravel-36.png)
 Routes selalu dideklarasikan menggunakan kelas Routes dan salah satu method yang dipakai untuk request sebuah halaman webpage yaitu GET menggunakan HTTP. GET request ini dikirim setiap waktu ketika kita mengetikan sebuah alamat web di web browser.
 
 Disamping method GET, ada juga method POST yang digunakan untuk membuat sebuah permitaan (request) dan menyediakan sebuah data yang relatif kecil. Normalnya method ini digunakan sebagai sebuah hasil submit dari form dimana data akan dikirimkan ke database tanpa ditampilkan ke URL.
@@ -221,7 +221,7 @@ Route::get('/motor', function(){
 ```
 
 Route diatas akan menghasilkan hasil sebagai berikut :
-![](../../assets/Laravel/laravel-37.png)
+![](assets/laravel-37.png)
 Masih di routes yang sama, kemudian kita akan membuat satu route yang mempunyai parameter yang berfungsi untuk mengirimkan sebuah nilai untuk ditampilkan ke web browser.
 
 **`routes/web.php`**
@@ -233,7 +233,7 @@ Route::get('/motor/{jenis}', function($jenis){
 ```
 
 Kemudian kita ketik URL di browser dan berikan nilai “Kawasaki” untuk route yang berparameter , localhost/motor/kawasaki dan hasilnya adalah sebagai berikut.
-![](../../assets/Laravel/laravel-38.png)
+![](assets/laravel-38.png)
 Kamu dapat mencoba dengan berbagai nilai untuk diberikan ke route diatas seperti:
 
 - localhost:8000/motor/ninja
@@ -254,9 +254,9 @@ Route::get('/motor/{jenis?}', function($jenis = null){
 ```
 
 Jika route diatas ada fungsi logika nya yaitu jika nilai $jenis = null (kita tidak memberikan nilai di URL) maka akan mengemballikan "Motor Dashboard Page";.Tapi jika variabel $jenis kita beri nilai maka akan mengembalikan "Motor dengan jenis ".<nilai_variabel>;. Kita dapat lihat pada contoh sebagai berikut.
-![](../../assets/Laravel/laravel-39.png)
+![](assets/laravel-39.png)
 Tapi kalau kita biarkan atau kita tidak mengisikan nilai “nmax” untuk URL diatas, maka hasilnya adalah sebagai berikut :
-![](../../assets/Laravel/laravel-40.png)
+![](assets/laravel-40.png)
 Disamping nilai default (null), kita juga dapat memberikan nilai sesuai dengan kebutuhan. Misalkan kita beri contoh default untuk variabel $jenis = "Sport", maka route nya seperti ini
 
 **`routes/web.php`**
@@ -274,16 +274,16 @@ Route diatas apabila kita eksekusi dengan tidak memberikan nilai di URL nya maka
 MVC atau kepanjangan dari Model-View-Controller adalah sebuah metode yang digunakan dalam pengembangan suatu aplikasi yang memisahkan data (model) dari tampilan / frontend (View) dan logic dari aplikasi itu sendiri (Controller). MVC memisahkan pengembangan aplikasi berdasarkan komponen utama yang membangun sebuah aplikasi seperti manipulasi data, antarmuka pengguna dan kontrol dalam sebuah aplikasi.
 
 Model digunakan untuk proses query atau manipulasi data ke/dari database. Sedangkan View kaitannya erat dengan antarmuka / frontend tampilan sebuah web seperti HTML, CSS dan JS dan data yang bersifat client. Controller adalah logika dari sebuah web. Menjembatani komunikasi antara Model dan View. Kalau digambarkan alur proses MVC adalah sebagai berikut :
-![](../../assets/Laravel/laravel-41.png)
+![](assets/laravel-41.png)
 Adapun gambar simulasi proses MVC pada Laravel diperlihatkan pada gambar dibawah ini.
-![](../../assets/Laravel/laravel-42.png)
+![](assets/laravel-42.png)
 Untuk lebih jelasnya kita langsung praktikan proses MVC pada laravel. Pertama kita membuat sebuah controller dengan nama BookController. Disini saya menggunakan composer untuk membuat kontroller. Dengan sintak sebagai berikut :
 
 ```bash
 php artisan make:controller BookController
 ```
 
-![](../../assets/Laravel/laravel-43.png)
+![](assets/laravel-43.png)
 
 Setelah itu **BookController** isi sebagai berikut :
 
@@ -307,7 +307,7 @@ Route::get('/book', [BookController::class, 'index']);
 ```
 
 Penjelasan route diatas adalah Route menggunakan method **get** untuk menampilkan _response_ dari method **index** dari kontroller **BookController**. Untuk melihat output dari proses diatas ketikan URL sebagai berikut localhost:8000/book . Adapun hasilnya seperti gambar dibawah ini.
-![](../../assets/Laravel/laravel-44.png)
+![](assets/laravel-44.png)
 Kita akan coba bagaimana mengirimkan sebuah parameter / nilai dari route ke kontroller. Ganti
 route user kemudian tambahkan parameter “judul”.
 
@@ -332,7 +332,7 @@ class BookController extends Controller {
 
 Kemudian cek kode diatas dengan mengetikan URL sebagai berikut pada web browser
 localhost:8000/book/chainsaw-man
-![](../../assets/Laravel/laravel-45.png)
+![](assets/laravel-45.png)
 Setelah itu, kita akan coba mengintegrasikan Controller dengan View.Pada folder **resources/views/** kemudian buat sebuah file PHP dengan nama **v_book.blade.php** dan isikan kode sebagai berikut.
 
 **`resources/views/v_book.blade.php`**
@@ -356,7 +356,7 @@ class BookController extends Controller {
 ```
 
 Method viewJudul diatas akan mengeksekusi view v_book.blade.php pada folder resources/view. Dan kalau kita jalankan di web browser dengan mengetikan URL sebagai berikut localhost:8000/book/chainsaw-man hasilnya adalah sebagai berikut.
-![](../../assets/Laravel/laravel-46.png)
+![](assets/laravel-46.png)
 
 # Mengenal Blade Template Engine Laravel
 
@@ -364,7 +364,7 @@ Template engine adalah sebuah method untuk mempersingkat penulisan kode yang leb
 
 Pada bagian View inilah fungsi Blade sangat dibutuhkan. View seperti yang sudah kita tahu berfungsi menampilkan sebuah halaman web, namun bukan berarti dalam view tersebut tidak bisa melakukan proses logic. Disinilah peran blade yang dibutuhkan untuk membantu menuliskan logic agar manjadi lebih simple. Disamping itu, blade juga berfungsi untuk memisahkan layout suatu web dengan layout tertentu dan blade sendiri mendukung inheritance (OOP). Semua file blade harus menggunakan ekstensi **.blade.** Contoh jika kita membuat sebuah file **Book.php** maka untuk bisa menggunakan fitur blade, maka harus diberi nama menjadi **Book.blade.php** . Berikut adalah perbedaan mendasar antara sintak PHP dan blade.
 
-![](../../assets/Laravel/laravel-47.png)
+![](assets/laravel-47.png)
 Blade juga mendukung penuh proses looping dan kondisi-logika PHP seperti **@for**, **@foreach**,**@while** , **@if** dan **@elseif**. Supaya tidak bingung dalam menuliskan sintak berikut akan saya contohkan menulis sintak php biasa dengan sintak blade.
 
 ## echo variabel
@@ -515,7 +515,7 @@ buat halaman spesifik yaitu home dan about pada view resources laravel
 
 1. Pilih Template Admin Dashboard
    Cari dan pilih template admin dashboard yang sesuai dengan kebutuhan Anda. Ada banyak template yang tersedia secara gratis atau berbayar di internet, seperti AdminLTE, Bootstrap Admin Themes, dan lainnya.disini saya memakai template admin windmill
-   ![](../../assets/Laravel/laravel-20.png)
+   ![](assets/laravel-20.png)
 2. Integrasi Template ke Laravel
 3. Membuat Bagian Blade untuk Navbar, Sidebar, Header, Body, dan Footer
    Masuk ke folder **resources/views** kemudian buat terlebih dahulu file blade untuk adminnya dan isi file adminnya dari template sudah kita pilih
@@ -523,17 +523,17 @@ buat halaman spesifik yaitu home dan about pada view resources laravel
    Lalu Sisipkan file html yang sudah kita pilh ke **admin.blade.php**
    Kemudian cari komponen-komponen yang ingin dipisah
    Dari Navbar,Sidebar,Header Dan Footer Buat Masing Masing File Untuk Komponen-Komponen Tertentu
-   ![](../../assets/Laravel/laravel-21.png)
+   ![](assets/laravel-21.png)
    Setelah itu, buatlah file yang ingin di jadikan sebagai bodynya.
-   ![](../../assets/Laravel/laravel-48.png)
+   ![](assets/laravel-48.png)
    Kemudian Jika Template Admin Anda Masih Belum Sepenuhnya Berfungsi Mungkin Itu Dikarenakan File File Yang Dibutuhkan Belum Terpanggil Seperti Javascript,Css,Gambar Dll.
    Disini Kita Akan Menggunakan Fungsi **Asset**.Penggunaan umum dari asset adalah untuk membangun URL yang benar ke aset yang berada di dalam direktori "public" di dalam proyek Laravel Anda. Alasan penggunaan direktori "public" adalah karena konten di dalam direktori ini dapat diakses langsung melalui URL, menjadikannya tempat yang tepat untuk menyimpan aset-aset publik.
-   ![](../../assets/Laravel/laravel-49.png)
+   ![](assets/laravel-49.png)
 
 4. Membuat Halaman Konten Spesifik
    Dalam folder "resources/view", buat halaman-halaman blade yang akan mengisi bagian konten dari template.
    Misalnya dalam "dashboard.blade.php".
-   ![](../../assets/Laravel/laravel-.png)
+   ![](assets/laravel-.png)
 5. Route dan Tampilan Konten
    Tentukan rute di dalam file "web.php" yang akan menampilkan halaman konten.
 
@@ -558,7 +558,7 @@ File `.env` digunakan untuk menyimpan konfigurasi lingkungan aplikasi, termasuk 
 
 1. Buka file `.env` di root direktori proyek Laravel Anda.
 2. Cari bagian konfigurasi database, yang biasanya terlihat seperti ini:
-   ![](../../assets/Laravel/laravel-22.png)
+   ![](assets/laravel-22.png)
 3. Ganti `nama_database`, `username_database`, dan `password_database` dengan informasi database Anda.
 
 Setelah konfigurasi dilakukan, Anda dapat menguji koneksi ke database dengan menjalankan migrasi. dengan menjalankan perintah berikut.
@@ -590,9 +590,9 @@ Schema::create mempunyai dua parameter. Parameter pertama, yaitu untuk mendefini
 
 Untuk mengeksekusi kode diatas kemudian buka browser dan ketikan URL dibawah ini
 http://localhost:8000/users
-![](../../assets/Laravel/laravel-56.png)
+![](assets/laravel-56.png)
 masuk ke database mysql, pilih database yang telah di buat, untuk mengecek apakah tabel telah dibuat.
-![](../../assets/Laravel/laravel-57.png)
+![](assets/laravel-57.png)
 Tabel users telah dibuat di mysql
 
 ## Menambah, Rename dan Menghapus Kolom
@@ -709,7 +709,7 @@ Pertama, kita akan membuat tabel post dengan menggunakan migrations. Masuk ke Co
 php artisan make:migration <nama_file_migrations>
 ```
 
-![](../../assets/Laravel/laravel-51.png)
+![](assets/laravel-51.png)
 Jika hasilnya sama dengan gambar diatas, kemudian kita cek pada direktori app/database/migrations disini ada file migrations php dengan nama 2014_11_13_043950_create_table_users.php.nama awalnya bisa berbeda-beda tapi nama akhirnya past sama. Dan apabila kita buka, akan menghasilkan kode php sebagai berikut :
 
 **`app/database/migration/2023_10_02_070205_users.php`**
@@ -757,9 +757,9 @@ Setelah itu masuk ke command prompt yang tadi, kemudian kita akan menjalankan fi
 php artisan migrate
 ```
 
-![](../../assets/Laravel/laravel-52.png)
+![](assets/laravel-52.png)
 File tersebut sudah berhasil, kemudian masuk ke database mysql untuk mengeceknya
-![](../../assets/Laravel/laravel-53.png)Diatas, pada database `db_laravel-11` terdapat dua tabel yaitu tabel migrations dan users. Karena kita menggunakan fitur migrations. Maka otomatis laravel akan membuat tabel migrations yang isinya tentang tabel-tabel yang sudah dimigrasi ke MySQL.
+![](assets/laravel-53.png)Diatas, pada database `db_laravel-11` terdapat dua tabel yaitu tabel migrations dan users. Karena kita menggunakan fitur migrations. Maka otomatis laravel akan membuat tabel migrations yang isinya tentang tabel-tabel yang sudah dimigrasi ke MySQL.
 
 ## Rolling Migrations
 
@@ -769,14 +769,14 @@ Seperti yang telah kita ketahui, migrations digunakan untuk kepentingan struktur
 php artisan migrate:rollback
 ```
 
-![](../../assets/Laravel/laravel-54.png)
+![](assets/laravel-54.png)
 Jika kita mengecek didatabase db_laravel, maka tabel yang suda dibuat menggunakan migrasi akan dibalikan kembali pada saat kita terakhir kali menggunakan perintah migrate.Atau jika kita ingin me-rollback semua tabel migrasi, maka gunakan perintah reset.
 
 ```bash
 php artisan migrate:reset
 ```
 
-![](../../assets/Laravel/laravel-55.png)
+![](assets/laravel-55.png)
 
 # Seeding
 
@@ -833,4 +833,4 @@ Untuk menjalankan file seeder, masih di command prompt gunakan perintah berikut,
 php artisan db:seed
 ```
 
-![](../../assets/Laravel/laravel-50.png)
+![](assets/laravel-50.png)
